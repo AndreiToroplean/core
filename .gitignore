@@ -128,6 +128,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Poetry stuff
+# Since this is library code, we do not want to commit this file
+# see: https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+poetry.lock
+
 # VsCode stuff
 .vscode/
 
